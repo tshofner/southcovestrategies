@@ -1,5 +1,5 @@
 body {
-	background: url('bedge_grunge_@2X.png');
+/*	background: url('bedge_grunge_@2X.png'); */
 	background-color: #ebebe3;
 	font-family: Garamond, Verdana, sans;
 }
@@ -13,10 +13,23 @@ body {
     top:0px;
     left:0px;
     display:none;
+    height: auto;
 }
 .nivoSlider a {
     border:0;
     display:block;
+}
+
+.nivo-html-caption {
+	color: red;
+}
+
+.slider-wrapper {
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	padding-top:0px;
+	margin-top:0px;
 }
 
 h1 {
@@ -30,12 +43,6 @@ h3 {
 	font-size 1.6em;
 	color: #9e9e76;
 	margin-top: -25px;
-}
-
-#container {
-	padding: 10px;
-	height: auto;
-	width:auto;
 }
 
 .home {
@@ -110,7 +117,7 @@ h3 {
 	margin: 5px;
 }
 
-.active {
+/*.active {
 	background-color: #c5c5ad;
 	border: solid #3a3a52;
 	color: #3a3a52;
@@ -128,7 +135,7 @@ h3 {
 	color: #c5c5ad; 
 	font-weight: bold;
 	text-align: center;
-}
+} */
 
 #footer {
 	font-family: Garamond, Verdana, sans;
