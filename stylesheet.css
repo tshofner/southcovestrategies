@@ -25,29 +25,13 @@ body {
 	text-align: center;
 	position: relative; /*changed from absolute to relative in order to accomodate for large slider sizes */
 	bottom: 0;
-	width: 100%;
+	width: 96%;
 	height: 40px;
 	padding-top: 5px;
 	background-color: #c5c5ad;
 	border: solid #597696;
 	color: #3a3a52;
 	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
-}
-
-#footer-other {
-	font-family: Garamond, Verdana, sans;
-	font-size: 0.8em;
-	clear: both;
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-	width: 90%;
-	height: 40px;
-	padding-top: 5px;
-	background-color: #c5c5ad;
-	border: solid #597696;
-	color: #3a3a52;
-	/*margin-left: 10px; /*added margin after changing to relative so it's centeredon page */ */
 }
 
 #column-left {
