@@ -39,6 +39,37 @@ body {
 	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
 }
 
+#footer-other {
+	font-family: Garamond, Verdana, sans;
+	font-size: 0.8em;
+	clear: both;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+	height: 40px;
+	padding-top: 5px;
+	background-color: #c5c5ad;
+	border: solid #597696;
+	color: #3a3a52;
+	/*margin-left: 10px; /*added margin after changing to relative so it's centeredon page */ */
+}
+
+#column-left {
+	float: left;
+	position: relative;
+	width: 225px;
+	height: 500px;
+	margin: 0px 0px 250px 0px;
+	padding: 25px 5px 5px 30px;
+}
+
+.content {
+	position: relative;
+	width: 850px;
+	font-family: Garamond, Verdana, sans;
+	padding-left: 25px;
+}
 
 /* The Nivo Slider styles */
 .nivoSlider {
@@ -192,7 +223,7 @@ ul.topnav li span { /*--Drop down trigger styles--*/
 	width: 17px;
 	height: 35px;
 	float: left;
-	background: url(subnav_btn.gif) no-repeat center top;
+/*	background: url(subnav_btn.gif) no-repeat center top; */
 }
 ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
 ul.topnav li ul.subnav {
@@ -216,9 +247,9 @@ ul.topnav li ul.subnav li{
 html ul.topnav li ul.subnav li a {
 	float: left;
 	width: 145px;
-	background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;
+	background: #333 /*url(dropdown_linkbg.gif)*/ no-repeat 10px center;
 	padding-left: 20px;
 }
 html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
-	background: #222 url(dropdown_linkbg.gif) no-repeat 10px center; 
+	background: #222 /*url(dropdown_linkbg.gif)*/ no-repeat 10px center; 
 }
