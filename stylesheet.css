@@ -34,8 +34,8 @@ body {
 	height: 40px;
 	padding-top: 5px;
 	background-color: #c5c5ad;
-	border: solid #3a3a52;
-	color: #3a3a52;
+	border: solid #597696;
+	color: #597696;
 	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
 }
 
@@ -178,14 +178,15 @@ ul.topnav li {
 	position: relative; /*--Declare X and Y axis base for sub navigation--*/
 }
 ul.topnav li a{
-	padding: 10px 5px;
+	padding: 10px 5px 5px 5px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
 	float: left;
 }
 ul.topnav li a:hover{
-	background: url(topnav_hover.gif) no-repeat center top;
+	/*background: url(topnav_hover.gif) no-repeat center top;*/ /*removing this to test out feature w/o an image */
+	background: #84b4e5;
 }
 ul.topnav li span { /*--Drop down trigger styles--*/
 	width: 17px;
