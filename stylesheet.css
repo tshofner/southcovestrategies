@@ -1,5 +1,4 @@
 body {
-/*	background: url('bedge_grunge_@2X.png'); */
 	background-color: #ebebe3;
 	font-family: Garamond, Verdana, sans;
 }
@@ -39,13 +38,19 @@ body {
 	color: #3a3a52;
 }
 
- 
+
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	width:100%;
-	height:auto;
-	overflow: hidden;
+/*	width:100%;
+	height:auto; */
+	overflow: hidden; 
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	box-shadow: 0px 1px 55px 0px #4a4a4a;
+	width:400px;
+	height:266px;
 }
 .nivoSlider img {
 	position:absolute;
@@ -122,16 +127,23 @@ body {
 }
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
-	position:absolute;
-	top:45%;
-	z-index:9;
-	cursor:pointer;
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 .nivo-prevNav {
 	left:0px;
 }
 .nivo-nextNav {
-	right:0px;
+	right:15px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
@@ -140,7 +152,8 @@ body {
 }
 .nivo-controlNav a {
 	cursor:pointer;
+	background:url(bullets.png) no-repeat;
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
-}
+} 
