@@ -19,8 +19,8 @@ body {
 
 #slider {
 	margin: 0 auto;
-	width: 400px;
-	height: 266px;
+	width: 800px;
+	height: 532px;
 }
 
 #footer {
@@ -28,14 +28,15 @@ body {
 	font-size: 0.8em;
 	clear: both;
 	text-align: center;
-	position: absolute;
+	position: relative; /*changed from absolute to relative in order to accomodate for large slider sizes */
 	bottom: 0;
-	width: 90%;
+	width: 100%;
 	height: 40px;
 	padding-top: 5px;
 	background-color: #c5c5ad;
 	border: solid #3a3a52;
 	color: #3a3a52;
+	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
 }
 
 
@@ -49,8 +50,8 @@ body {
 	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
 	-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
 	box-shadow: 0px 1px 55px 0px #4a4a4a;
-	width:400px;
-	height:266px;
+	width:800px;
+	height:532px;
 }
 .nivoSlider img {
 	position:absolute;
@@ -157,3 +158,66 @@ body {
 .nivo-controlNav a.active {
 	font-weight:bold;
 } 
+
+/* Nav bar styles */
+
+ul.topnav {
+	list-style: none;
+	padding: 0 20px 2px;	
+	margin: 5px;
+	float: left;
+	width: 920px;
+	background: #222;
+	font-size: 1.2em;
+	background: url(topnav_bg.gif) repeat-x;
+}
+ul.topnav li {
+	float: left;
+	margin-left: 75px;	/*changed from margin: 0 to margin-left: 60px */
+	padding: 0 35px 0 35px; /* changed right from 15px to 35px and left from 0px to 35px */
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: url(topnav_hover.gif) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(dropdown_linkbg.gif) no-repeat 10px center; 
+}
