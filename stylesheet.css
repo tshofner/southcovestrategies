@@ -1,11 +1,11 @@
 body {
 	background-color: #f8f8ff;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 h1 {
 	font-size: 2em;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	color: #002244;
 	text-align: center;
 }
@@ -26,30 +26,34 @@ h1 {
 }
 
 #footer {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 0.8em;
 	clear: both;
 	text-align: center;
 	position: relative; /*changed from absolute to relative in order to accomodate for large slider sizes */
 	bottom: 0;
-	width: 96%;
-	height: 40px;
-	padding-top: 5px;
-	padding-right: 20px;
+	width: 920px;
+/*	height: 40px; */
+/*	padding-top: 5px;
+	padding-right: 20px; */
+	padding: 0 20px;
 	margin: 5px;
-	background-color: #A5ACAF;
-	border: solid #002244;
-	color: #002C5F;
+/*	background-color: #A5ACAF; */
+	background: url(topnav_bg.gif) repeat-x;
+/*	border: solid #002244; */
+	border: solid #A5ACAF; 
+	color: white;
+/*	color: #002C5F; */
 	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
 }
 
 #footer a:link {
 	text-decoration: none;
-	color: #002c5f;
+	color: white;
 }
 
 #footer a:visited {
-	color: #002c5f;
+	color: white;
 }
 
 #column-left {
@@ -65,7 +69,7 @@ h1 {
 .content {
 	width: 800px; 
 	height: auto;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	padding: 5px;
 	margin: 25px;
 }
