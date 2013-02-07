@@ -1,10 +1,17 @@
 body {
-	background-color: #ebebe3;
-	font-family: Garamond, Verdana, sans;
+	background-color: #f8f8ff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #002244;
+	text-align: center;
 }
 
 #wrapper { 
-	border:1px solid #E1E1DF; 
+	border:1px solid #A5ACAF; 
 	margin:0 auto; 
 	padding:35px 40px 15px 40px; 
 	text-align:left; 
@@ -19,7 +26,7 @@ body {
 }
 
 #footer {
-	font-family: Garamond, Verdana, sans;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 0.8em;
 	clear: both;
 	text-align: center;
@@ -28,10 +35,19 @@ body {
 	width: 96%;
 	height: 40px;
 	padding-top: 5px;
-	background-color: #c5c5ad;
-	border: solid #597696;
-	color: #3a3a52;
+	background-color: #A5ACAF;
+	border: solid #002244;
+	color: #002C5F;
 	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
+}
+
+#footer a:link {
+	text-decoration: none;
+	color: #002c5f;
+}
+
+#footer a:visited {
+	color: #002c5f;
 }
 
 #column-left {
@@ -47,7 +63,7 @@ body {
 .content {
 	width: 800px; 
 	height: auto;
-	font-family: Garamond, Verdana, sans;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding: 5px;
 	margin: 25px;
 }
@@ -182,11 +198,12 @@ ul.topnav {
 	background: #222;
 	font-size: 1.2em;
 	background: url(topnav_bg.gif) repeat-x;
+	border: #002244;
 }
 ul.topnav li {
 	float: left;
 	margin-left: 75px;	/*changed from margin: 0 to margin-left: 60px */
-	padding: 0 35px 0 35px; /* changed right from 15px to 35px and left from 0px to 35px */
+	padding: 0px 35px 0px 35px; /* changed right from 15px to 35px and left from 0px to 35px */
 	position: relative; /*--Declare X and Y axis base for sub navigation--*/
 }
 ul.topnav li a{
@@ -198,7 +215,7 @@ ul.topnav li a{
 }
 ul.topnav li a:hover{
 	/*background: url(topnav_hover.gif) no-repeat center top;*/ /*removing this to test out feature w/o an image */
-	background: #84b4e5;
+	background: #A5ACAF;
 }
 ul.topnav li span { /*--Drop down trigger styles--*/
 	width: 17px;
