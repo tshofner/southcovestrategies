@@ -35,6 +35,8 @@ h1 {
 	width: 96%;
 	height: 40px;
 	padding-top: 5px;
+	padding-right: 20px;
+	margin: 5px;
 	background-color: #A5ACAF;
 	border: solid #002244;
 	color: #002C5F;
@@ -191,14 +193,14 @@ h1 {
 
 ul.topnav {
 	list-style: none;
-	padding: 0 20px 2px;	
+	padding: 0 20px;	
 	margin: 5px;
 	float: left;
 	width: 920px; 
 	background: #222;
 	font-size: 1.2em;
 	background: url(topnav_bg.gif) repeat-x;
-	border: #002244;
+	border: solid #A5ACAF; 
 }
 ul.topnav li {
 	float: left;
