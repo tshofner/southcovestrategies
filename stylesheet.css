@@ -158,7 +158,7 @@ h1 {
 	display:inline !important;
 }
 .nivo-html-caption {
-    display:none;
+    display: none;
 }
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
@@ -198,7 +198,7 @@ h1 {
 ul.topnav {
 	list-style: none;
 	padding: 0 20px;	
-	margin: 5px;
+	margin: 5px; 
 	float: left;
 	width: 920px; 
 	background: #222;
@@ -213,7 +213,7 @@ ul.topnav li {
 	position: relative; /*--Declare X and Y axis base for sub navigation--*/
 }
 ul.topnav li a{
-	padding: 10px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
