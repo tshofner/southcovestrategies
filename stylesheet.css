@@ -63,15 +63,20 @@ h1 {
 	height: 700px;
 	margin: 25px;
 	padding: 5px;
-	background-color: silver;
+	background-color: #A5ACAF;
 }
 
 .content {
 	width: 800px; 
 	height: auto;
 	font-family: Tahoma, Geneva, sans-serif;
-	padding: 5px;
+	padding-left: 5px;
+	padding-top: 25px;
 	margin: 25px;
+}
+
+p {
+	padding: 5px;
 }
 
 /* The Nivo Slider styles */
