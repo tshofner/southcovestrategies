@@ -13,7 +13,7 @@ h1 {
 #wrapper { 
 	border:1px solid #A5ACAF; 
 	margin:0 auto; 
-	padding:35px 40px 15px 40px; 
+	padding:0px 40px 15px 40px; 
 	text-align:left; 
 	max-width: 1000px; 
 	height: auto;
@@ -23,6 +23,7 @@ h1 {
 	margin: 0 auto;
 	width: 800px;
 	height: 266px;
+	margin-bottom: 20px;
 }
 
 #footer {
@@ -60,11 +61,20 @@ h1 {
 	float: left;
 	position: relative;
 	width: 270px;
-	height: 700px;
+	height: 480px;
 	margin: 23px;
 	padding: 5px; 
 	color: #002244;
 	background-color: #A5ACAF;
+}
+
+#column-left img {
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	box-shadow: 0px 1px 55px 0px #4a4a4a;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 4px;
 }
 
 .content {
@@ -72,17 +82,26 @@ h1 {
 	height: auto;
 	font-family: Tahoma, Geneva, sans-serif;
 	padding-left: 5px;
-	padding-top: 25px;
+	padding-top: 45px;
 	margin: 25px;
 }
 
 p {
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .serviceslist {
 	padding-left: 10px;
 }
+
+.frontimg {
+	float: left;
+	padding: 5px;
+}
+
 
 /* The Nivo Slider styles */
 .nivoSlider {
@@ -96,7 +115,9 @@ p {
 	box-shadow: 0px 1px 55px 0px #4a4a4a;
 	width:800px;
 	height:532px;
+
 }
+
 .nivoSlider img {
 	position:absolute;
 	top:0px;
@@ -271,3 +292,57 @@ html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
 .current {
 	background: #A5ACAF;
 }
+
+/* Tag cloud */
+
+	#tags ul{
+		margin:1em 0;
+		padding:.5em 10px;
+		text-align:center;
+	/*	background:#71b5e9 url(bg_tags.gif) repeat-x;		*/
+		}
+	#tags li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		display:inline;
+		}
+	#tags li a{
+		text-decoration:none;
+		color:#fff;
+		padding:0 2px;	
+		}
+	#tags li a:hover{	
+		color:#cff400;
+		}		
+	
+	.tag1{font-size:100%;}
+	.tag2{font-size:120%;}
+	.tag3{font-size:140%;}
+	.tag4{font-size:160%;}
+	.tag5{font-size:180%;}
+	
+	/* alternative layout */
+
+	#tags .alt{
+		text-align:left;
+		padding:0;
+		background:none;
+		}
+	#tags .alt li{
+		padding:2px 10px;
+		background:#efefef;
+		display:block;
+		}
+	#tags .alt .tag1, 
+	#tags .alt .tag2, 
+	#tags .alt .tag3, 
+	#tags .alt .tag4, 
+	#tags .alt .tag5{font-size:100%;}
+	#tags .alt .tag1{background:#7cc0f4;}
+	#tags .alt .tag2{background:#67abe0;}
+	#tags .alt .tag3{background:#4d92c7;}
+	#tags .alt .tag4{background:#3277ad;}
+	#tags .alt .tag5{background:#266ca2;}
+	
+/* // Tag cloud */
