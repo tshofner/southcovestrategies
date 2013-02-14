@@ -26,6 +26,50 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.rdCaptionBox { 
+	margin:0 auto; 
+	margin-bottom: 20px;
+	padding:0; 
+	position:relative; 
+	top:3px; 
+	left:0; 
+	z-index:10; 
+	width:800px; 
+	height:270px; 
+}
+
+.rdCaption { 
+	position:absolute; 
+	bottom:0; 
+	left:0; 
+	padding:4px; 
+	width:800px; 
+	height:270px;
+	z-index:11; 
+}
+
+.rdCaptionText { 
+	position: relative;
+	margin:0;  
+	top: -32px;
+	padding: 5px 10px;
+	z-index:11; 
+	opacity: 0.8;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1em; 
+	background-color: black;
+	color:white; 
+}
+
+.rdCaptionText a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.rdCaptionText a:visited {
+	color: white;
+}
+
 #footer {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 0.8em;
@@ -34,18 +78,11 @@ h1 {
 	position: relative; /*changed from absolute to relative in order to accomodate for large slider sizes */
 	bottom: 0;
 	width: 920px;
-/*	height: 40px; */
-/*	padding-top: 5px;
-	padding-right: 20px; */
 	padding: 0 20px;
 	margin: 5px;
-/*	background-color: #A5ACAF; */
 	background: url(topnav_bg.gif) repeat-x;
-/*	border: solid #002244; */
 	border: solid #A5ACAF; 
 	color: white;
-/*	color: #002C5F; */
-	/*margin-left: 20px; */ /*added margin after changing to relative so it's centeredon page */
 }
 
 #footer a:link {
@@ -106,8 +143,6 @@ p {
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-/*	width:100%;
-	height:auto; */
 	overflow: hidden; 
 	background:#fff url(loading.gif) no-repeat 50% 50%;
 	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
@@ -172,7 +207,7 @@ p {
 	width:100%;
 	z-index:8;
 	padding: 5px 10px;
-	opacity: 0.4;
+	opacity: 0.8;
 	overflow: hidden;
 	display: none;
 	-moz-opacity: 0.8;z
@@ -180,6 +215,15 @@ p {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.nivo-caption a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.nivo-caption a:visited {
+	color: white;
 }
 .nivo-caption p {
 	padding:5px;
@@ -313,7 +357,7 @@ html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
 		padding:0 2px;	
 		}
 	#tags li a:hover{	
-		color:#cff400;
+		color: #69BE28;
 		}		
 	
 	.tag1{font-size:100%;}
