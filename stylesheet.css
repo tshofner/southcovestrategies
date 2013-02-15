@@ -74,10 +74,13 @@ h1 {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 0.8em;
 	clear: both;
+	overflow:auto;
 	text-align: center;
 	position: relative; /*changed from absolute to relative in order to accomodate for large slider sizes */
 	bottom: 0;
 	width: 920px;
+	max-width: 98%;
+	height: 38px;
 	padding: 0 20px;
 	margin: 5px;
 	background: url(topnav_bg.gif) repeat-x;
@@ -275,7 +278,8 @@ ul.topnav {
 	padding: 0 20px;	
 	margin: 5px; 
 	float: left;
-	width: 920px; 
+	width: 920px;
+	max-width: 98%;
 	background: #222;
 	font-size: 1.2em;
 	background: url(topnav_bg.gif) repeat-x;
